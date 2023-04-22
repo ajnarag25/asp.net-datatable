@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yd3iYeICTxPKfJsUc09fg6oedQ+cdKb57iWqLd2XXfs=",
+  "Hash": "hI/2mfbO0RDthCOtNeZyerSGQxr5lZvMQLwzW2CRx90=",
   "Source": "Crud-Web-App",
   "BasePath": "_content/Crud-Web-App",
   "Mode": "Default",
@@ -49,23 +49,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\WINDOWS 10 PRO\\Documents\\AJ - OJT JAE HUB\\asp.net-web-app\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Crud-Web-App.bundle.scp.css"
-    },
-    {
-      "Identity": "C:\\Users\\WINDOWS 10 PRO\\Documents\\AJ - OJT JAE HUB\\asp.net-web-app\\wwwroot\\css\\dataTable.css",
-      "SourceId": "Crud-Web-App",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\WINDOWS 10 PRO\\Documents\\AJ - OJT JAE HUB\\asp.net-web-app\\wwwroot\\",
-      "BasePath": "_content/Crud-Web-App",
-      "RelativePath": "css/dataTable.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\dataTable.css"
     },
     {
       "Identity": "C:\\Users\\WINDOWS 10 PRO\\Documents\\AJ - OJT JAE HUB\\asp.net-web-app\\wwwroot\\css\\site.css",
@@ -1103,23 +1086,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
-    },
-    {
-      "Identity": "C:\\Users\\WINDOWS 10 PRO\\Documents\\AJ - OJT JAE HUB\\asp.net-web-app\\wwwroot\\textfile\\data.txt",
-      "SourceId": "Crud-Web-App",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\WINDOWS 10 PRO\\Documents\\AJ - OJT JAE HUB\\asp.net-web-app\\wwwroot\\",
-      "BasePath": "_content/Crud-Web-App",
-      "RelativePath": "textfile/data.txt",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\textfile\\data.txt"
     }
   ]
 }
