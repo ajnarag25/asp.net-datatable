@@ -18,52 +18,39 @@
         </ul>
         <div class="tab-content">
             <div class="tab-pane active" id="tab-table1">
-                <table id="myTable1" class="table table-striped table-bordered" cellspacing="0" width="100%">
+
+                <table class="table">
                     <thead>
                         <tr>
                             <th>Name</th>
-                            <th>Position</th>
+                            <th>Office</th>
                             <th>Extn.</th>
                             <th>Start date</th>
                             <th>Salary</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <th>Michael Suarez Rilan</th>
-                            <td>Senior Developer</td>
-                            <td>0002</td>
-                            <td>2008/12/08</td>
-                            <td>Php 120,050</td>
-                        </tr>
-                        <tr>
-                            <th>Alliah Faith Nazaire</th>
-                            <td>Js Developer</td>
-                            <td>0023</td>
-                            <td>2009/10/05</td>
-                            <td>Php 102,010</td>
-                        </tr>
-                        <tr>
-                            <th>Kyle Nicole Taccad</th>
-                            <td>Back-end Developer</td>
-                            <td>1102</td>
-                            <td>2012/25/10</td>
-                            <td>Php 110,250</td>
-                        </tr>
-                        <tr>
-                            <th>Vanessa Tulabot</th>
-                            <td>Software Engineer</td>
-                            <td>3202</td>
-                            <td>2013/05/02</td>
-                            <td>Php 120,200</td>
-                        </tr>
-                        <tr>
-                            <th>Mary Chris Jasa</th>
-                            <td>Marketing Designer</td>
-                            <td>1032</td>
-                            <td>2012/22/10</td>
-                            <td>Php 110,200</td>
-                        </tr>
+                        @if (ViewData["DataTable1"] != null &&
+                        ((System.Data.DataTable)ViewData["DataTable1"]).Rows.Count
+                        > 0)
+                        {
+                            foreach (System.Data.DataRow row in ((System.Data.DataTable)ViewData["DataTable1"]).Rows)
+                            {
+                                <tr>
+                                    <td>@row["Name"]</td>
+                                    <td>@row["Office"]</td>
+                                    <td>@row["Extn."]</td>
+                                    <td>@row["Startdate"]</td>
+                                    <td>@row["Salary"]</td>
+                                </tr>
+                            }
+                        }
+                        else
+                        {
+                            <tr>
+                                <td colspan="3">No data available</td>
+                            </tr>
+                        }
                     </tbody>
                 </table>
             </div>
@@ -78,43 +65,26 @@
                             <th>Salary</th>
                         </tr>
                     </thead>
-                    <tbody>
+                    @if (ViewData["DataTable2"] != null && ((System.Data.DataTable)ViewData["DataTable2"]).Rows.Count
+                    > 0)
+                    {
+                        foreach (System.Data.DataRow row in ((System.Data.DataTable)ViewData["DataTable2"]).Rows)
+                        {
+                            <tr>
+                                <td>@row["Name"]</td>
+                                <td>@row["Office"]</td>
+                                <td>@row["Extn."]</td>
+                                <td>@row["Startdate"]</td>
+                                <td>@row["Salary"]</td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
                         <tr>
-                            <th>Leomhar Manuel</th>
-                            <td>Senior Developer</td>
-                            <td>0002</td>
-                            <td>2008/12/08</td>
-                            <td>Php 150,050</td>
+                            <td colspan="3">No data available</td>
                         </tr>
-                        <tr>
-                            <th>Yves Edellon</th>
-                            <td>Js Developer</td>
-                            <td>0023</td>
-                            <td>2009/10/05</td>
-                            <td>Php 102,010</td>
-                        </tr>
-                        <tr>
-                            <th>Renshi Sena</th>
-                            <td>Back-end Developer</td>
-                            <td>1102</td>
-                            <td>2012/25/10</td>
-                            <td>Php 110,250</td>
-                        </tr>
-                        <tr>
-                            <th>Christian Rapal</th>
-                            <td>Software Engineer</td>
-                            <td>3202</td>
-                            <td>2013/05/02</td>
-                            <td>Php 120,200</td>
-                        </tr>
-                        <tr>
-                            <th>Joshua Jumalon</th>
-                            <td>Back-end Developer</td>
-                            <td>1032</td>
-                            <td>2012/22/10</td>
-                            <td>Php 110,200</td>
-                        </tr>
-                    </tbody>
+                    }
                 </table>
             </div>
         </div>
