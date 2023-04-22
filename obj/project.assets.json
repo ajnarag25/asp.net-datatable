@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\WINDOWS 10 PRO\\Documents\\AJ - OJT JAE HUB\\Crud-Web-App\\Crud-Web-App.csproj",
+      "projectUniqueName": "C:\\Users\\WINDOWS 10 PRO\\Documents\\AJ - OJT JAE HUB\\asp.net-web-app\\Crud-Web-App.csproj",
       "projectName": "Crud-Web-App",
-      "projectPath": "C:\\Users\\WINDOWS 10 PRO\\Documents\\AJ - OJT JAE HUB\\Crud-Web-App\\Crud-Web-App.csproj",
+      "projectPath": "C:\\Users\\WINDOWS 10 PRO\\Documents\\AJ - OJT JAE HUB\\asp.net-web-app\\Crud-Web-App.csproj",
       "packagesPath": "C:\\Users\\WINDOWS 10 PRO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\WINDOWS 10 PRO\\Documents\\AJ - OJT JAE HUB\\Crud-Web-App\\obj\\",
+      "outputPath": "C:\\Users\\WINDOWS 10 PRO\\Documents\\AJ - OJT JAE HUB\\asp.net-web-app\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\WINDOWS 10 PRO\\AppData\\Roaming\\NuGet\\NuGet.Config"
